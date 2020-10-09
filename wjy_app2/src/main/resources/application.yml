@@ -1,0 +1,9 @@
+server:
+  port: 9081
+
+spring:
+  mvc:
+    static-path-pattern: /static/**
+
+#sso_server: http://sso.cac2020.com:8080/sso
+sso_server: http://localhost:8080/sso
